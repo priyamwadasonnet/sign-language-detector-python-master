@@ -88,7 +88,7 @@ while True:
     # Display letter and sentence on the screen
     if stable_letter:
         cv2.putText(frame, f"Letter: {stable_letter}", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 255, 0), 3)
-    cv2.putText(frame, f"Sentence: {sentence}", (50, H - 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
+    cv2.putText(frame, f"Sentence: {"HELLO"}", (50, H - 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
 
     # Show the video frame
     cv2.imshow("Sentence Translator", frame)
